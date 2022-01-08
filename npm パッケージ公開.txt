@@ -1,0 +1,72 @@
+https://qiita.com/TsutomuNakamura/items/f943e0490d509f128ae2
+初めてのnpm パッケージ公開
+
+author情報を作成する
+$ npm set init.author.name "Tsutomu Nakamura"
+$ npm set init.author.email "tsutomu-nakamura@example.com"
+$ npm set init.author.url "http://qiita.com/TsutomuNakamura"
+
+上記コマンドを実行すると~/.npmrc ファイルが作成されその中に入力した情報が格納されます。
+次にnpm adduser コマンドを使ってユーザを登録します。
+
+npmユーザの登録
+$ npm adduser
+## まだユーザが登録されていない場合は、npm に登録する新規ユーザ情報を入力する。
+## 既にnpm ユーザが作成されている場合はそのユーザの情報を入れて、ログインする。
+
+GitHub リポジトリの作成
+リポジトリを作成したら、自分のローカル環境にclone しておきます。
+
+$ git clone git@github.com:TsutomuNakamura/rpncc.git
+$ cd rpncc
+
+
+npm init でパッケージの情報を入力
+npm init コマンドを実行し、package.json ファイルを作成します。
+package.json ファイルはこのパッケージが他のどのパッケージと依存関係にあるのかといった情報や、build に関する環境情報を記載して他の開発者や他ワークステーションとの間でbuild 環境を共有する手助けをしてくれます。
+
+
+・@scope/shortJS
+・@archmapp/shortJS
+    "name": "@archmapp/shortJS",
+
+  {
+    "name": "@archmapp/shortJS",
+    "version": "1.0.0",
+    "description": "short library for Bulma",
+    "main": "index.js",
+    "private": false,
+    ...
+  }
+
+
+npm login
+
+npm publish ./
+npm publish --access public
+
+...
+    [ npm unpublish --force ] (24h以内の場合はこれで良い。)
+npm logout
+
+・scope:archmapp で検索できる。
+
+npm install @archmapp/shortJS
+
+
+
+
+https://nodachisoft.com/common/jp/article/jp000110/
+  初めて npm パッケージを一般公開する時の手順
+
+
+
+npmパッケージのアップデート
+作成した npm パッケージを更新する時には、 初回同様、npm login したのちに、 npm publish コマンドで更新できます。
+
+ただし、その際には package.json の中の Version の数値を上げる必要があります。 バージョンの数値の上げ方はセマンティックバージョニングというルールに従います。
+
+
+npmパッケージを削除したい
+npm unpublish コマンドで削除できます。 ただし、一度公開した「パッケージ名＋バージョン」は２度と npm レジストリでは登録できません。
+

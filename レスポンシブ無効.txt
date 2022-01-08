@@ -1,0 +1,49 @@
+ReactでSassを利用
+
+https://penpen-dev.com/blog/create-react-app-sass/
+  npm install sass (-Dでは?)
+  プロジェクト内にある.cssファイルをすべて.scssに書き換える
+  (dart-sassのパッケージ名はsass)
+
+create-react-appは、webpackのsass-loaderを使ってSassをバンドルする
+sass-loaderは、dart-sassとnode-sassの2つがインストールされている場合は、node-sassの方を優先する。（2021年5月現在、sass-loaderのREADME.mdに書いてます）
+ただし、オプションによってはdart-sassの方を優先することもできる。（implementationというオプションを使えばいいらしい）
+  npm uninstall node-sass
+  npm rebuild node-sass (最終的にこれを実行すると動いた。)
+ 
+
+https://qiita.com/yoshinbo/items/9bdb045acfc12a845615
+レスポンシブ無効
+
+assets/css/app.scss
+$navbar-breakpoint: 0px;
+$tablet: 0px;
+$desktop: 1024px;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+#main {
+    width: $desktop;
+    margin: 0 auto;
+}
+簡単に説明すると各種breakpointを0pxに設定して無効化。
+desktopを起点にするのでお好みのwidthを設定。
+widescreenとfullhdはenabledで無効化できるのでfalseを指定。
+あとはcssでwidth固定してセンタリングすることで対応しました。
+
+scss\components\navbar.scss
+  $navbar-breakpoint: $desktop !default;
+
+scss\utilities\initial-variables.scss
+  // Responsiveness
+  // The container horizontal gap, which acts as the offset for breakpoints
+  $gap: 32px !default;
+
+  // 960, 1152, and 1344 have been chosen because they are divisible by both 12 and 16
+  $tablet: 769px !default;
+
+  // 960px container + 4rem
+  $desktop: 960px + 2 * $gap !default;
+
+
+

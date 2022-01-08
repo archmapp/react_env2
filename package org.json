@@ -1,0 +1,44 @@
+{
+  "name": "flashcard-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "netlify-cli": "^8.0.6",
+    "sass": "^1.45.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "netlify": "netlify deploy",
+    "netlify-prod": "netlify deploy --prod",
+    "netlify-help": "netlify help",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "serve": "serve -s build -p 3300",
+    "serve-docs": "serve -s docs -p 3300",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+.f_around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #fed;
+  padding: 0px 10px;
+  border-radius: 6px 6px 0 0;
+}
+
+.arch {
+  width: 75%;
+}
+
+.qv_f .f_around {
+  color: #555;
+  font-weight: bold;
+}
+
+.qv_f .f_around span {
+  color: #999;
+  font-weight: bold;
+}
+
+.quickviewS {
+  max-width: 380px;
+}
+.quickviewS a:hover {
+  background: #E3C800;
+  color: #fff !important;
+  padding: 1px 2px;
+}
+
+.qv_b ul {
+  list-style: disc;
+  text-align: left;
+}
+
+.qv_b .messageBodyS {
+  font-size: .8rem;
+  line-height: 1.4rem;
+}
+
+.qv_f {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 705px) {
+  .qv_b .messageBodyS {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .f_around {
+    flex-direction: column;
+  }
+
+  .qv_h {}
+
+  .qv_b .messageBodyS {
+    font-size: 0.6rem;
+  }
+
+  .qv_f {
+    font-size: 0.8rem;
+  }
+
+  .qv_f .arch {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .qv_b .messageBodyS {
+    font-size: 0.5rem;
+  }
+}

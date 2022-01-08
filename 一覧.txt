@@ -1,0 +1,92 @@
+git remote -v
+
+
+C:\Users\Owner\Desktop\Nodejs\Bulma\bulmaJS\src\index.html
+https://archmapp2.github.io/bulmaJS/index.html
+初回 Bulma Project
+Bulma入門 javascript Handlebars Electron Angular React
+
+
+
+C:\Users\Owner\Desktop\Nodejs\Bulma\bulmaJSR\1\app\index.html
+https://www.archmapp.tech/
+第二版・Bulmaと共に！
+Bulma・React入門 javascript
+https://github.com/archmapp/bulmaJSR.git
+
+
+
+
+C:\Users\Owner\Desktop\Nodejs\Bulma\CompanyWebsite\index.html
+https://archmapp.github.io/about2/
+会社 履歴 コンピューター教育 ゲーム react Bulma
+https://github.com/archmapp/about2.git
+
+
+C:\Users\Owner\Desktop\Nodejs\mean\BradWebpack\BRAD_react-sass-webpack\2 route slide\app\index.html
+https://www.archmapp.tech/
+初めての【 けいさん 】 たし算・ひき算・かけ算
+https://github.com/archmapp/hajimeteno-keisan.git
+
+
+C:\Users\Owner\Desktop\Nodejs\React\Kyle-React-Flashcard\public\index.html
+✖　https://archmapp.github.io/ippatsu/
+✖　github(https://archmapp.github.io/ippatsu/)
+一発勝負❣ トランプゲーム 記憶ゲーム react Bulma
+https://github.com/archmapp/ippatsu.git
+
+
+C:\Users\Owner\Desktop\Nodejs\React\Kyle-React-Flashcard_Netlify2\public\index.html
+https://flashcard2.netlify.app
+一発勝負❣ トランプゲーム 記憶ゲーム react Bulma
+https://app.netlify.com/sites/flashcard2/overview
+netlifyへのdeploy:
+  npm run build　(必須のようだ！)
+  npm run netlify-prod
+      ? Publish directory　build
+      C:\Users\Owner\Desktop\Nodejs\React\Kyle-React-Flashcard_Netlify2\build
+
+
+C:\Users\Owner\Desktop\Nodejs\ReactN\Ninja\public\index.html
+https://jolly-lamport-67e201.netlify.app/
+記憶ゲーム しんけいすいじゃく react Bulma 忍者
+https://github.com/archmapp/memory-game.git
+  npm run build
+  npm run netlify-prod ... 重要 Publish directory: build
+
+
+C:\Users\Owner\Desktop\Nodejs\React\game\Space-Game-master
+いん石を狙え
+Website URL: https://flashcard2.netlify.app
+
+太陽系
+https://archmapp.github.io/html/
+https://archmapp.github.io/html/%E5%A4%AA%E9%99%BD%E7%B3%BB2.html
+https://archmapp.github.io/html/太陽系2.html
+  git remote -v
+  origin  https://github.com/archmapp/html.git (fetch)
+  origin  https://github.com/archmapp/html.git (push)
+
+
+
+
+
+C:\Users\Owner\Desktop\Nodejs\Bulma\bulmaJS\src\sub\flex\Diagram.html
+https://archmapp2.github.io/bulmaJS/src/sub/flex/Diagram.html
+
+
+
+[React・Bulmaでの開発環境のサンプル]
+  開発環境１
+  C:\Users\Owner\Desktop\Nodejs\React\codesandbox\cs1\react-bulma1
+  https://archmapp.github.io/react_env1/
+  git remote -v
+  origin  https://github.com/archmapp/react_env1.git (fetch)
+  origin  https://github.com/archmapp/react_env1.git (push)  
+
+  開発環境２
+  C:\Users\Owner\Desktop\Nodejs\React\codesandbox\cs1\react-bulma2
+  https://archmapp.github.io/react_env2/
+  git remote -v
+  origin  https://github.com/archmapp/react_env2.git (fetch)
+  origin  https://github.com/archmapp/react_env2.git (push)  
