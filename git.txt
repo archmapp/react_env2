@@ -1,4 +1,6 @@
+~~~~~~~~~~~~~
 npm run build
+~~~~~~~~~~~~~
 build/ => docs/ へコピー
 git add .
 git commit -m "開発2"
