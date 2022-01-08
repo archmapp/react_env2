@@ -12,9 +12,9 @@ function Hero() {
 							<small className="is-size-4">で</small>開発環境
 							<small className="is-size-4">の</small>構築
 						</h1>
-						<small className="is-size-6 ml-6">サンプル1：</small>
+						<small className="is-size-6 ml-6">サンプル2：</small>
 						<h2 className="subtitle is-size-4 has-text-centered mt-2">
-							create-react-app <small className="is-size-5">の後で</small>{' '}
+							X create-react-app <small className="is-size-5">の後で</small>{' '}
 							webpackを操作する
 						</h2>
 						<h2 className="subtitle is-size-5 has-text-centered mt-2">

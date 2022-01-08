@@ -90,12 +90,12 @@ function Top() {
 						</li>
 					</ul>
 					<article className="panel is-info mt-6">
-						<p className="panel-heading">開発環境１の紹介</p>
+						<p className="panel-heading">開発環境２の紹介</p>
 
 						<div className="panel-block is-flex is-flex-direction-column is-justify-content-center">
 							<article className="message is-primary mb-0">
 								<div className="message-header mt-3 pb-1">
-									<p>開発環境１</p>
+									<p>開発環境２</p>
 								</div>
 								<div className="message-body has-background-white is-size-6 py-2 px-6">
 									<ul style={{ listStyle: 'disc' }}>
@@ -122,7 +122,7 @@ function Top() {
 							<div className="panel-block is-flex is-flex-direction-column is-justify-content-center">
 								<article className="message is-warning mb-0">
 									<div className="message-header mt-3 pb-1">
-										<p>開発環境１</p>
+										<p>開発環境２</p>
 									</div>
 									<div className="message-body has-background-white is-size-6 py-2 px-6">
 										<ul style={{ listStyle: 'disc' }}>
